@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Bagisto'),
+    'name' => env('APP_NAME', 'Behin'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => env('APP_TIMEZONE','Asia/Kolkata'),
+    'timezone' => env('APP_TIMEZONE','Asia/Tehran'),
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'fa'),
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'fa',
 
     /*
     |--------------------------------------------------------------------------
@@ -116,8 +116,8 @@ return [
     | Here you may specify the base currency code for your application.
     |
     */
-    
-    'currency' => env('APP_CURRENCY', 'USD'),
+
+    'currency' => env('APP_CURRENCY', 'IRR'),
 
     /*
     |--------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 return [
     'flatrate' => [
         'code'         => 'flatrate',
-        'title'        => 'Flat Rate',
+        'title'        => 'flat-rate',
         'description'  => 'Flat Rate Shipping',
         'active'       => true,
         'default_rate' => '10',
@@ -13,7 +13,7 @@ return [
 
     'free'     => [
         'code'         => 'free',
-        'title'        => 'Free Shipping',
+        'title'        => 'free-shipping',
         'description'  => 'Free Shipping',
         'active'       => true,
         'default_rate' => '0',

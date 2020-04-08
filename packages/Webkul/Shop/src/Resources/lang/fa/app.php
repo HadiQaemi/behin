@@ -606,8 +606,8 @@ return [
         ],
 
         'refund' => [
-            'heading' => '#:order_id للطلب #:refund_id أموالك المستردة',
-            'subject' => '#:order_id رد أموال لطلبك',
+            'heading' => 'بازپرداخت شما #:refund_id برای سفارش #:order_id',
+            'subject' => 'بازپرداخت شما برای سفارش #:order_id',
             'summary' => 'خلاصه بازپرداخت',
             'adjustment-refund' => 'بازپرداخت تنظیم',
             'adjustment-fee' => 'هزینه تنظیم'

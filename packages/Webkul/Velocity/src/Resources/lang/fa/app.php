@@ -151,6 +151,28 @@ return [
         'popular-categories' => 'دسته بندی های محبوب',
     ],
 
+    'methods' => [
+        'money-transfer' => 'خرید اینترنتی',
+        'cash-delivery' => 'پرداخت در محل',
+        'flat-rate' => 'نرخ ثابت',
+        'free-shipping' => 'ارسال رایگان'
+    ],
+
+    'footer' => [
+        'about-us' => 'درباره ما',
+        'customer-service' => 'سرویس مشتری',
+
+        'order-returns' => 'سفارش و ارسال',
+        'payment-policy' => 'قوانین پرداخت',
+        'shipping-policy' => 'قوانین حمل و نقل',
+        'privacy-cookies' => 'حریم خصوصی و سیاست کوکی ها',
+
+        'flat-rate' => 'نرخ ثابت',
+        'what-new' => 'رخ دادهای جدید',
+        'contact-us' => 'تماس با ما',
+        'free-shipping' => 'ارسال رایگان'
+    ],
+
     'header' => [
         'cart' => 'سبد خرید',
         'cart' => 'سبد خرید',
