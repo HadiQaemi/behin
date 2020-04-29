@@ -4309,3 +4309,10 @@ section.review .review-layouter .ratings-reviews .right-side .rater .line-bar .l
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 4%
 }
+.product-detail .description > div{
+    width: 200px !important;
+}
+.rtl div{
+    text-align: right !important;
+    direction: rtl !important;
+}
