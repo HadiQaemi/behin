@@ -162,6 +162,10 @@
                                             href="{{ route('customer.session.destroy') }}">
                                             <span>{{ __('shop::app.header.logout') }}</span>
                                         </a>
+                                        <i
+                                                class="rango-arrow-right"
+                                                @click="toggleMetaInfo('currencies')">
+                                        </i>
                                     @endauth
 
                                     @guest('customer')
@@ -170,6 +174,10 @@
                                             href="{{ route('customer.session.create') }}">
                                             <span>{{ __('shop::app.customer.login-form.title') }}</span>
                                         </a>
+                                        <i
+                                                class="rango-arrow-right"
+                                                @click="toggleMetaInfo('currencies')">
+                                        </i>
                                     @endguest
                                 </li>
                             </ul>
